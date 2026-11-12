@@ -1,0 +1,29 @@
+# Python 环境和缓存
+.venv/
+__pycache__/
+*.pyc
+
+# 编辑器配置
+.idea/
+.vscode/
+
+# FFmpeg 本地运行工具
+tools/ffmpeg/
+
+# 本地视频素材和转换结果
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.m4v
+
+# 缩略图测试结果
+thumbnail_test.png
+
+# 转换中的临时文件
+.video-converter-*
+
+# 后续打包产生的文件
+build/
+dist/
